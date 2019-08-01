@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "the one where the user moves the cart without adding any item in it",
+        "description": "",
+        "id": "add-to-cart-fault;the-one-where-the-user-moves-the-cart-without-adding-any-item-in-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20618631900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Lalitha has registered in to TestMeApp",
+            "match": {
+              "location": "Casestudy4.lalitha_has_registered_in_to_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1865902100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Lalitha search a particularproduct like headphones",
+            "match": {
+              "location": "Casestudy4.lalitha_search_a_particularproduct_like_headphones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11212700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "try to proceed to payment without adding any item in the cart",
+            "match": {
+              "location": "Casestudy4.try_to_proceed_to_payment_without_adding_any_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234217300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "TestMeApp doesn\u0027t display the cart icon",
+            "match": {
+              "location": "Casestudy4.testmeapp_doesn_t_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart fault",
+    "description": "",
+    "id": "add-to-cart-fault",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Folder/Casestudy4.feature",
+    "tags": []
+  }
+]
